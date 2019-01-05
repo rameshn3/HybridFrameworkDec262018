@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[click on forgot password link to validate]]>
+    </line>
+    <line>
+      <![CDATA[verify the forgot password page title--Reset Password | LinkedIn]]>
+    </line>
+    <line>
+      <![CDATA[Linkedin fogot password title  is verified successfully ]]>
+    </line>
+    <line>
+      <![CDATA[navigate back to linkedin home page]]>
+    </line>
+    <line>
+      <![CDATA[verifying the linkedin page title]]>
+    </line>
+    <line>
+      <![CDATA[Linkedin title  is verified successfully ]]>
+    </line>
+    <line>
+      <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/forgotpassword2018-12-26 07-33-06.png]]>
+    </line>
+    <line>
+      <![CDATA[verifying the linkedin RegistrationForm section present in the page or not]]>
+    </line>
+    <line>
+      <![CDATA[Linkedin RegistrationForm section is successfully displayed]]>
+    </line>
+    <line>
+      <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/regfarm2018-12-26 07-33-07.png]]>
+    </line>
+    <line>
+      <![CDATA[verifying the linkedin login section present in the page or not]]>
+    </line>
+    <line>
+      <![CDATA[Linkedin login section is successfully displayed]]>
+    </line>
+    <line>
+      <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/landingPage2018-12-26 07-33-18.png]]>
+    </line>
+    <line>
+      <![CDATA[type the username value in email editbox]]>
+    </line>
+    <line>
+      <![CDATA[Type the password value in password editbox]]>
+    </line>
+    <line>
+      <![CDATA[click on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[Type the keyword in search editbox]]>
+    </line>
+    <line>
+      <![CDATA[click on search button]]>
+    </line>
+    <line>
+      <![CDATA[fetch the results count text]]>
+    </line>
+    <line>
+      <![CDATA[results count text is-->Showing 206,236 results]]>
+    </line>
+    <line>
+      <![CDATA[results count in string format-->206,236]]>
+    </line>
+    <line>
+      <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/searchresultsPagefor_Ramesh2018-12-26 07-33-41.png]]>
+    </line>
+    <line>
+      <![CDATA[search results count is-->206236]]>
+    </line>
+    <line>
+      <![CDATA[Type the keyword in search editbox]]>
+    </line>
+    <line>
+      <![CDATA[click on search button]]>
+    </line>
+    <line>
+      <![CDATA[fetch the results count text]]>
+    </line>
+    <line>
+      <![CDATA[results count text is-->Showing 40 results]]>
+    </line>
+    <line>
+      <![CDATA[results count in string format-->40]]>
+    </line>
+    <line>
+      <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/searchresultsPagefor_Megha bhatra2018-12-26 07-33-46.png]]>
+    </line>
+    <line>
+      <![CDATA[search results count is-->40]]>
+    </line>
+    <line>
+      <![CDATA[Type the keyword in search editbox]]>
+    </line>
+    <line>
+      <![CDATA[click on search button]]>
+    </line>
+    <line>
+      <![CDATA[fetch the results count text]]>
+    </line>
+    <line>
+      <![CDATA[results count text is-->Showing 32,899 results]]>
+    </line>
+    <line>
+      <![CDATA[results count in string format-->32,899]]>
+    </line>
+    <line>
+      <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/searchresultsPagefor_Radhika2018-12-26 07-33-51.png]]>
+    </line>
+    <line>
+      <![CDATA[search results count is-->32899]]>
+    </line>
+    <line>
+      <![CDATA[Type the keyword in search editbox]]>
+    </line>
+    <line>
+      <![CDATA[click on search button]]>
+    </line>
+    <line>
+      <![CDATA[fetch the results count text]]>
+    </line>
+    <line>
+      <![CDATA[results count text is-->Showing 1 result]]>
+    </line>
+    <line>
+      <![CDATA[results count in string format-->1]]>
+    </line>
+    <line>
+      <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/searchresultsPagefor_surylata2018-12-26 07-33-55.png]]>
+    </line>
+    <line>
+      <![CDATA[search results count is-->1]]>
+    </line>
+    <line>
+      <![CDATA[click on Home tab]]>
+    </line>
+    <line>
+      <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/HomeTab2018-12-26 07-33-58.png]]>
+    </line>
+    <line>
+      <![CDATA[Executing the logout()]]>
+    </line>
+    <line>
+      <![CDATA[verify the profile raild card section]]>
+    </line>
+    <line>
+      <![CDATA[click on profile image icon]]>
+    </line>
+    <line>
+      <![CDATA[wait for the visibility of sign out link]]>
+    </line>
+    <line>
+      <![CDATA[click on sign out link]]>
+    </line>
+    <line>
+      <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/logout2018-12-26 07-34-02.png]]>
+    </line>
+  </reporter-output>
+  <suite name="HybdriPomSuite" duration-ms="69682" started-at="2018-12-26T02:02:53Z" finished-at="2018-12-26T02:04:02Z">
+    <groups>
+    </groups>
+    <test name="HybridPomTest" duration-ms="69682" started-at="2018-12-26T02:02:53Z" finished-at="2018-12-26T02:04:02Z">
+      <class name="org.qa.linkedin.testcase.LinkedinLandingTest">
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:org.qa.linkedin.testcase.LinkedinLandingTest@35851384]" name="launchUrl" is-config="true" duration-ms="10188" started-at="2018-12-26T02:02:53Z" finished-at="2018-12-26T02:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="verifyLinkedinLandingForgotPwdLink()[pri:0, instance:org.qa.linkedin.testcase.LinkedinLandingTest@35851384]" name="verifyLinkedinLandingForgotPwdLink" duration-ms="2905" started-at="2018-12-26T02:03:03Z" finished-at="2018-12-26T02:03:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on forgot password link to validate]]>
+            </line>
+            <line>
+              <![CDATA[verify the forgot password page title--Reset Password | LinkedIn]]>
+            </line>
+            <line>
+              <![CDATA[Linkedin fogot password title  is verified successfully ]]>
+            </line>
+            <line>
+              <![CDATA[navigate back to linkedin home page]]>
+            </line>
+            <line>
+              <![CDATA[verifying the linkedin page title]]>
+            </line>
+            <line>
+              <![CDATA[Linkedin title  is verified successfully ]]>
+            </line>
+            <line>
+              <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/forgotpassword2018-12-26 07-33-06.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLinkedinLandingForgotPwdLink -->
+        <test-method status="PASS" signature="verifyLinkedinLandingRegSection()[pri:0, instance:org.qa.linkedin.testcase.LinkedinLandingTest@35851384]" name="verifyLinkedinLandingRegSection" duration-ms="1640" started-at="2018-12-26T02:03:06Z" finished-at="2018-12-26T02:03:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[verifying the linkedin RegistrationForm section present in the page or not]]>
+            </line>
+            <line>
+              <![CDATA[Linkedin RegistrationForm section is successfully displayed]]>
+            </line>
+            <line>
+              <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/regfarm2018-12-26 07-33-07.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLinkedinLandingRegSection -->
+        <test-method status="PASS" signature="verifyLinkedinLandingTitle()[pri:0, instance:org.qa.linkedin.testcase.LinkedinLandingTest@35851384]" name="verifyLinkedinLandingTitle" duration-ms="7" started-at="2018-12-26T02:03:07Z" finished-at="2018-12-26T02:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkedinLandingTitle -->
+        <test-method status="PASS" signature="verifyLinkedinLoginSection()[pri:0, instance:org.qa.linkedin.testcase.LinkedinLandingTest@35851384]" name="verifyLinkedinLoginSection" duration-ms="77" started-at="2018-12-26T02:03:07Z" finished-at="2018-12-26T02:03:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[verifying the linkedin login section present in the page or not]]>
+            </line>
+            <line>
+              <![CDATA[Linkedin login section is successfully displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLinkedinLoginSection -->
+        <test-method status="PASS" signature="verifyLinkedinLogoTest()[pri:0, instance:org.qa.linkedin.testcase.LinkedinLandingTest@35851384]" name="verifyLinkedinLogoTest" duration-ms="70" started-at="2018-12-26T02:03:08Z" finished-at="2018-12-26T02:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinkedinLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.qa.linkedin.testcase.LinkedinLandingTest@35851384]" name="tearDown" is-config="true" duration-ms="589" started-at="2018-12-26T02:03:08Z" finished-at="2018-12-26T02:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.qa.linkedin.testcase.LinkedinLandingTest -->
+      <class name="org.qa.linkedin.testcase.SearchTest">
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:org.qa.linkedin.testcase.SearchTest@649d209a]" name="launchUrl" is-config="true" duration-ms="9817" started-at="2018-12-26T02:03:08Z" finished-at="2018-12-26T02:03:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/landingPage2018-12-26 07-33-18.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="validateLoginTest()[pri:0, instance:org.qa.linkedin.testcase.SearchTest@649d209a]" name="validateLoginTest" duration-ms="17507" started-at="2018-12-26T02:03:18Z" finished-at="2018-12-26T02:03:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[type the username value in email editbox]]>
+            </line>
+            <line>
+              <![CDATA[Type the password value in password editbox]]>
+            </line>
+            <line>
+              <![CDATA[click on sign in button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:org.qa.linkedin.testcase.SearchTest@649d209a]" name="searchTest" duration-ms="4284" started-at="2018-12-26T02:03:37Z" data-provider="testData" depends-on-methods="org.qa.linkedin.testcase.SearchTest.validateLoginTest" finished-at="2018-12-26T02:03:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Type the keyword in search editbox]]>
+            </line>
+            <line>
+              <![CDATA[click on search button]]>
+            </line>
+            <line>
+              <![CDATA[fetch the results count text]]>
+            </line>
+            <line>
+              <![CDATA[results count text is-->Showing 206,236 results]]>
+            </line>
+            <line>
+              <![CDATA[results count in string format-->206,236]]>
+            </line>
+            <line>
+              <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/searchresultsPagefor_Ramesh2018-12-26 07-33-41.png]]>
+            </line>
+            <line>
+              <![CDATA[search results count is-->206236]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:org.qa.linkedin.testcase.SearchTest@649d209a]" name="searchTest" duration-ms="5348" started-at="2018-12-26T02:03:41Z" data-provider="testData" depends-on-methods="org.qa.linkedin.testcase.SearchTest.validateLoginTest" finished-at="2018-12-26T02:03:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Megha bhatra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Type the keyword in search editbox]]>
+            </line>
+            <line>
+              <![CDATA[click on search button]]>
+            </line>
+            <line>
+              <![CDATA[fetch the results count text]]>
+            </line>
+            <line>
+              <![CDATA[results count text is-->Showing 40 results]]>
+            </line>
+            <line>
+              <![CDATA[results count in string format-->40]]>
+            </line>
+            <line>
+              <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/searchresultsPagefor_Megha bhatra2018-12-26 07-33-46.png]]>
+            </line>
+            <line>
+              <![CDATA[search results count is-->40]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:org.qa.linkedin.testcase.SearchTest@649d209a]" name="searchTest" duration-ms="4185" started-at="2018-12-26T02:03:46Z" data-provider="testData" depends-on-methods="org.qa.linkedin.testcase.SearchTest.validateLoginTest" finished-at="2018-12-26T02:03:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Radhika]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Type the keyword in search editbox]]>
+            </line>
+            <line>
+              <![CDATA[click on search button]]>
+            </line>
+            <line>
+              <![CDATA[fetch the results count text]]>
+            </line>
+            <line>
+              <![CDATA[results count text is-->Showing 32,899 results]]>
+            </line>
+            <line>
+              <![CDATA[results count in string format-->32,899]]>
+            </line>
+            <line>
+              <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/searchresultsPagefor_Radhika2018-12-26 07-33-51.png]]>
+            </line>
+            <line>
+              <![CDATA[search results count is-->32899]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:org.qa.linkedin.testcase.SearchTest@649d209a]" name="searchTest" duration-ms="4463" started-at="2018-12-26T02:03:51Z" data-provider="testData" depends-on-methods="org.qa.linkedin.testcase.SearchTest.validateLoginTest" finished-at="2018-12-26T02:03:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[surylata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Type the keyword in search editbox]]>
+            </line>
+            <line>
+              <![CDATA[click on search button]]>
+            </line>
+            <line>
+              <![CDATA[fetch the results count text]]>
+            </line>
+            <line>
+              <![CDATA[results count text is-->Showing 1 result]]>
+            </line>
+            <line>
+              <![CDATA[results count in string format-->1]]>
+            </line>
+            <line>
+              <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/searchresultsPagefor_surylata2018-12-26 07-33-55.png]]>
+            </line>
+            <line>
+              <![CDATA[search results count is-->1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.qa.linkedin.testcase.SearchTest@649d209a]" name="tearDown" is-config="true" duration-ms="7325" started-at="2018-12-26T02:03:55Z" finished-at="2018-12-26T02:04:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[click on Home tab]]>
+            </line>
+            <line>
+              <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/HomeTab2018-12-26 07-33-58.png]]>
+            </line>
+            <line>
+              <![CDATA[Executing the logout()]]>
+            </line>
+            <line>
+              <![CDATA[verify the profile raild card section]]>
+            </line>
+            <line>
+              <![CDATA[click on profile image icon]]>
+            </line>
+            <line>
+              <![CDATA[wait for the visibility of sign out link]]>
+            </line>
+            <line>
+              <![CDATA[click on sign out link]]>
+            </line>
+            <line>
+              <![CDATA[D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/logout2018-12-26 07-34-02.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.qa.linkedin.testcase.SearchTest -->
+    </test> <!-- HybridPomTest -->
+  </suite> <!-- HybdriPomSuite -->
+</testng-results>

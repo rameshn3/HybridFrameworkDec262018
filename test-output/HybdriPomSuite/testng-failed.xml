@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HybdriPomSuite]">
+  <test thread-count="5" name="HybridPomTest(failed)">
+    <classes>
+      <class name="org.qa.linkedin.testcase.SearchTest">
+        <methods>
+          <include name="searchTest"/>
+          <include name="launchUrl"/>
+          <include name="tearDown"/>
+          <include name="validateLoginTest"/>
+        </methods>
+      </class> <!-- org.qa.linkedin.testcase.SearchTest -->
+      <class name="org.qa.linkedin.testcase.LinkedinLandingTest">
+        <methods>
+          <include name="verifyLinkedinLandingRegSection"/>
+          <include name="launchUrl"/>
+          <include name="tearDown"/>
+          <include name="verifyLinkedinLandingForgotPwdLink"/>
+        </methods>
+      </class> <!-- org.qa.linkedin.testcase.LinkedinLandingTest -->
+    </classes>
+  </test> <!-- HybridPomTest(failed) -->
+</suite> <!-- Failed suite [HybdriPomSuite] -->

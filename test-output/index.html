@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-HybdriPomSuite">
+              <span class="suite-name border-passed">HybdriPomSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-HybdriPomSuite">
+                    <span>D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-HybdriPomSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-HybdriPomSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-HybdriPomSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-HybdriPomSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-HybdriPomSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-HybdriPomSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-HybdriPomSuite" class="hide-methods passed suite-HybdriPomSuite"> (hide)</a> <!-- hide-methods passed suite-HybdriPomSuite -->
+                      <a href="#" panel-name="suite-HybdriPomSuite" class="show-methods passed suite-HybdriPomSuite"> (show)</a> <!-- show-methods passed suite-HybdriPomSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-HybdriPomSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HybdriPomSuite" title="org.qa.linkedin.testcase.SearchTest" hash-for-method="searchTest(surylata)">searchTest(surylata)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HybdriPomSuite" title="org.qa.linkedin.testcase.SearchTest" hash-for-method="searchTest(Ramesh)">searchTest(Ramesh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HybdriPomSuite" title="org.qa.linkedin.testcase.SearchTest" hash-for-method="searchTest(Megha bhatra)">searchTest(Megha bhatra)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HybdriPomSuite" title="org.qa.linkedin.testcase.SearchTest" hash-for-method="searchTest(Radhika)">searchTest(Radhika)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HybdriPomSuite" title="org.qa.linkedin.testcase.SearchTest" hash-for-method="validateLoginTest">validateLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HybdriPomSuite" title="org.qa.linkedin.testcase.LinkedinLandingTest" hash-for-method="verifyLinkedinLandingForgotPwdLink">verifyLinkedinLandingForgotPwdLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HybdriPomSuite" title="org.qa.linkedin.testcase.LinkedinLandingTest" hash-for-method="verifyLinkedinLandingRegSection">verifyLinkedinLandingRegSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HybdriPomSuite" title="org.qa.linkedin.testcase.LinkedinLandingTest" hash-for-method="verifyLinkedinLandingTitle">verifyLinkedinLandingTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HybdriPomSuite" title="org.qa.linkedin.testcase.LinkedinLandingTest" hash-for-method="verifyLinkedinLoginSection">verifyLinkedinLoginSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HybdriPomSuite" title="org.qa.linkedin.testcase.LinkedinLandingTest" hash-for-method="verifyLinkedinLogoTest">verifyLinkedinLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-HybdriPomSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-HybdriPomSuite" class="panel HybdriPomSuite">
+          <div class="suite-HybdriPomSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.qa.linkedin.testcase.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(surylata)">
+                  </a> <!-- searchTest(surylata) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(surylata)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Ramesh)">
+                  </a> <!-- searchTest(Ramesh) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Ramesh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Megha bhatra)">
+                  </a> <!-- searchTest(Megha bhatra) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Megha bhatra)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Radhika)">
+                  </a> <!-- searchTest(Radhika) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Radhika)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginTest">
+                  </a> <!-- validateLoginTest -->
+                  <span class="method-name">validateLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HybdriPomSuite-class-passed -->
+          <div class="suite-HybdriPomSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.qa.linkedin.testcase.LinkedinLandingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLinkedinLandingForgotPwdLink">
+                  </a> <!-- verifyLinkedinLandingForgotPwdLink -->
+                  <span class="method-name">verifyLinkedinLandingForgotPwdLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLinkedinLandingRegSection">
+                  </a> <!-- verifyLinkedinLandingRegSection -->
+                  <span class="method-name">verifyLinkedinLandingRegSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLinkedinLandingTitle">
+                  </a> <!-- verifyLinkedinLandingTitle -->
+                  <span class="method-name">verifyLinkedinLandingTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLinkedinLoginSection">
+                  </a> <!-- verifyLinkedinLoginSection -->
+                  <span class="method-name">verifyLinkedinLoginSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLinkedinLogoTest">
+                  </a> <!-- verifyLinkedinLogoTest -->
+                  <span class="method-name">verifyLinkedinLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HybdriPomSuite-class-passed -->
+        </div> <!-- panel HybdriPomSuite -->
+        <div panel-name="test-xml-HybdriPomSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;HybdriPomSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HybridPomTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.qa.linkedin.testcase.LinkedinLandingTest&quot;/&gt;
+      &lt;class name=&quot;org.qa.linkedin.testcase.SearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HybridPomTest --&gt;
+&lt;/suite&gt; &lt;!-- HybdriPomSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-HybdriPomSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for HybdriPomSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HybridPomTest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-HybdriPomSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for HybdriPomSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-HybdriPomSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for HybdriPomSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_HybdriPomSuite');
+function tableData_HybdriPomSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateLoginTest')
+data.setCell(0, 2, 'org.qa.linkedin.testcase.SearchTest')
+data.setCell(0, 3, 17507);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchTest')
+data.setCell(1, 2, 'org.qa.linkedin.testcase.SearchTest')
+data.setCell(1, 3, 5348);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchTest')
+data.setCell(2, 2, 'org.qa.linkedin.testcase.SearchTest')
+data.setCell(2, 3, 4463);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchTest')
+data.setCell(3, 2, 'org.qa.linkedin.testcase.SearchTest')
+data.setCell(3, 3, 4284);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchTest')
+data.setCell(4, 2, 'org.qa.linkedin.testcase.SearchTest')
+data.setCell(4, 3, 4185);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyLinkedinLandingForgotPwdLink')
+data.setCell(5, 2, 'org.qa.linkedin.testcase.LinkedinLandingTest')
+data.setCell(5, 3, 2905);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLinkedinLandingRegSection')
+data.setCell(6, 2, 'org.qa.linkedin.testcase.LinkedinLandingTest')
+data.setCell(6, 3, 1640);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyLinkedinLoginSection')
+data.setCell(7, 2, 'org.qa.linkedin.testcase.LinkedinLandingTest')
+data.setCell(7, 3, 77);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyLinkedinLogoTest')
+data.setCell(8, 2, 'org.qa.linkedin.testcase.LinkedinLandingTest')
+data.setCell(8, 3, 70);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyLinkedinLandingTitle')
+data.setCell(9, 2, 'org.qa.linkedin.testcase.LinkedinLandingTest')
+data.setCell(9, 3, 7);
+window.suiteTableData['HybdriPomSuite']= { tableData: data, tableDiv: 'times-div-HybdriPomSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-HybdriPomSuite">
+              </div> <!-- times-div-HybdriPomSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-HybdriPomSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for HybdriPomSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchTest(surylata)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Type the keyword in search editbox</span>
+                <span class="reporter-method-output">click on search button</span>
+                <span class="reporter-method-output">fetch the results count text</span>
+                <span class="reporter-method-output">results count text is-->Showing 1 result</span>
+                <span class="reporter-method-output">results count in string format-->1</span>
+                <span class="reporter-method-output">D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/searchresultsPagefor_surylata2018-12-26 07-33-55.png</span>
+                <span class="reporter-method-output">search results count is-->1</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLinkedinLandingForgotPwdLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">click on forgot password link to validate</span>
+                <span class="reporter-method-output">verify the forgot password page title--Reset Password | LinkedIn</span>
+                <span class="reporter-method-output">Linkedin fogot password title  is verified successfully </span>
+                <span class="reporter-method-output">navigate back to linkedin home page</span>
+                <span class="reporter-method-output">verifying the linkedin page title</span>
+                <span class="reporter-method-output">Linkedin title  is verified successfully </span>
+                <span class="reporter-method-output">D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/forgotpassword2018-12-26 07-33-06.png</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchTest(Ramesh)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Type the keyword in search editbox</span>
+                <span class="reporter-method-output">click on search button</span>
+                <span class="reporter-method-output">fetch the results count text</span>
+                <span class="reporter-method-output">results count text is-->Showing 206,236 results</span>
+                <span class="reporter-method-output">results count in string format-->206,236</span>
+                <span class="reporter-method-output">D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/searchresultsPagefor_Ramesh2018-12-26 07-33-41.png</span>
+                <span class="reporter-method-output">search results count is-->206236</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLinkedinLoginSection</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifying the linkedin login section present in the page or not</span>
+                <span class="reporter-method-output">Linkedin login section is successfully displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchTest(Megha bhatra)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Type the keyword in search editbox</span>
+                <span class="reporter-method-output">click on search button</span>
+                <span class="reporter-method-output">fetch the results count text</span>
+                <span class="reporter-method-output">results count text is-->Showing 40 results</span>
+                <span class="reporter-method-output">results count in string format-->40</span>
+                <span class="reporter-method-output">D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/searchresultsPagefor_Megha bhatra2018-12-26 07-33-46.png</span>
+                <span class="reporter-method-output">search results count is-->40</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchTest(Radhika)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Type the keyword in search editbox</span>
+                <span class="reporter-method-output">click on search button</span>
+                <span class="reporter-method-output">fetch the results count text</span>
+                <span class="reporter-method-output">results count text is-->Showing 32,899 results</span>
+                <span class="reporter-method-output">results count in string format-->32,899</span>
+                <span class="reporter-method-output">D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/searchresultsPagefor_Radhika2018-12-26 07-33-51.png</span>
+                <span class="reporter-method-output">search results count is-->32899</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLinkedinLandingRegSection</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">verifying the linkedin RegistrationForm section present in the page or not</span>
+                <span class="reporter-method-output">Linkedin RegistrationForm section is successfully displayed</span>
+                <span class="reporter-method-output">D:\eclipseworkspaceAug2018\HybridFrWrkMrningBatch630To730AMDec232018/ScreenCapturesPNG/regfarm2018-12-26 07-33-07.png</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateLoginTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">type the username value in email editbox</span>
+                <span class="reporter-method-output">Type the password value in password editbox</span>
+                <span class="reporter-method-output">click on sign in button</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-HybdriPomSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-HybdriPomSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.qa.linkedin.testcase.LinkedinLandingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchUrl</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyLinkedinLandingForgotPwdLink</span>
+                <span class="method-start">10203 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLinkedinLandingRegSection</span>
+                <span class="method-start">13110 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLinkedinLandingTitle</span>
+                <span class="method-start">14752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLinkedinLoginSection</span>
+                <span class="method-start">14760 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLinkedinLogoTest</span>
+                <span class="method-start">14838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14908 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.qa.linkedin.testcase.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchUrl</span>
+                <span class="method-start">15499 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginTest</span>
+                <span class="method-start">25317 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Ramesh)</span>
+                <span class="method-start">44051 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Megha bhatra)</span>
+                <span class="method-start">48336 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Radhika)</span>
+                <span class="method-start">53684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(surylata)</span>
+                <span class="method-start">57870 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62333 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
