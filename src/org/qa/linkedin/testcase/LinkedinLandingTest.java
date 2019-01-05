@@ -39,6 +39,7 @@ public void verifyLinkedinLandingTitle() {
 
 @Test
 public void verifyLinkedinLoginSection() {
+	Reporter.log("verifying the login section");
 	llPg.verifyLoginSection();
 	
 }
@@ -63,6 +64,7 @@ public void verifyLinkedinLandingForgotPwdLink() {
 
 @AfterClass
 public void tearDown() {
+	Reporter.log("closing the browser");
 driver.close();
 }
 
